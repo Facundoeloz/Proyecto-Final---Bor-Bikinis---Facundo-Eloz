@@ -1,0 +1,80 @@
+.header {
+  background-color: white;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  ul {
+    text-align: center;
+    list-style: none;
+    font-family: $tipografia-marca;
+    font-weight: lighter;
+    list-style: none;
+  }
+  a {
+    text-decoration: none;
+    color: rgba(82, 82, 82, 0.705);
+    font-weight: bolder;
+    &:hover {
+      color: black;
+    }
+    
+    
+  }
+    ul li {
+      margin: 15px;
+      list-style: none;
+     }
+}
+
+
+
+.logo {
+  height: 60px;
+}
+
+.carritocompras{
+  width: 30px;
+  height: 30px;
+}
+
+
+
+/* Media Queries // Mobile Last */
+
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    align-items: center;
+    ul {
+      margin: 0 auto;
+      ul li {
+        margin: 0;
+        list-style: none;
+       }
+    }
+  }
+  .logo {
+    width: 100px;
+    height: 30px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 1rem;
+  }
+
+  .navbar{
+    display: block;
+  }
+
+
+
+}
+.carritocompras{
+  width: 30px;
+  height: 30px;
+  margin-bottom: 1rem;
+}
+

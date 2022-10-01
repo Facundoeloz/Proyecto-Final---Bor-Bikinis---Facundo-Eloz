@@ -1,0 +1,316 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&family=Raleway:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@900&family=Outfit:wght@100;200;300;600;800;900&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box; }
+
+.header {
+  background-color: white;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center; }
+  .header ul {
+    text-align: center;
+    list-style: none;
+    font-family: "Outfit", sans-serif;
+    font-weight: lighter;
+    list-style: none; }
+  .header a {
+    text-decoration: none;
+    color: rgba(82, 82, 82, 0.705);
+    font-weight: bolder; }
+    .header a:hover {
+      color: black; }
+  .header ul li {
+    margin: 15px;
+    list-style: none; }
+
+.logo {
+  height: 60px; }
+
+.carritocompras {
+  width: 30px;
+  height: 30px; }
+
+/* Media Queries // Mobile Last */
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    align-items: center; }
+    .header ul {
+      margin: 0 auto; }
+      .header ul ul li {
+        margin: 0;
+        list-style: none; }
+  .logo {
+    width: 100px;
+    height: 30px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 1rem; }
+  .navbar {
+    display: block; } }
+
+.carritocompras {
+  width: 30px;
+  height: 30px;
+  margin-bottom: 1rem; }
+
+.main {
+  background-color: white;
+  width: 100%;
+  height: 1500px; }
+  .main section {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  .main h4 {
+    font-family: "League Spartan", sans-serif;
+    color: black;
+    padding: 20px;
+    margin: 15px;
+    margin-top: 100px;
+    text-align: center; }
+
+.main section {
+  display: flex;
+  align-items: center;
+  flex-direction: colum;
+  flex-wrap: wrap;
+  margin: 70px;
+  margin-top: 20px; }
+
+.imagengif {
+  width: 500px;
+  height: 350px; }
+
+.textogif {
+  text-align: justify;
+  margin-top: 20px; }
+
+.infogif {
+  margin-left: 25px; }
+
+.botongif {
+  width: 200px;
+  height: 40px;
+  justify-content: space-evenly;
+  border: none;
+  border-radius: 5px;
+  font-size: medium;
+  margin-bottom: 10px;
+  align-items: center;
+  background-color: rgba(162, 245, 137, 0.904);
+  color: gray;
+  font-family: "Outfit", sans-serif; }
+  .botongif:hover {
+    color: black; }
+
+.container-botonwsp {
+  position: fixed;
+  z-index: 999;
+  border-radius: 50%;
+  bottom: 20px;
+  right: 25px;
+  transition: ease 0.3s; }
+
+.container-botonwsp:hover {
+  transform: scale(1.1);
+  transition: 0.3s; }
+
+.boton {
+  width: 50px;
+  transition: ease 1s; }
+
+@media (max-width: 768px) {
+  .imagengif {
+    width: 200px;
+    height: 150px; }
+  .main {
+    height: 1000px; } }
+
+/* seccion footer */
+.footer {
+  width: 100%;
+  height: 180px;
+  background-color: #f3f3f3;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto; }
+
+.footer a img {
+  width: 70px;
+  height: 70px; }
+
+.footer ul li {
+  list-style-type: none;
+  color: white; }
+
+.primerdivfooter {
+  display: flex;
+  flex-direction: column; }
+
+.navfooter ul li img {
+  width: 30px;
+  height: 30px;
+  margin: 5px; }
+
+.navfooter ul {
+  display: flex; }
+
+.OCA {
+  width: 52px;
+  height: 27px; }
+
+.envio {
+  color: black; }
+
+@media (max-width: 525px) {
+  .footer {
+    flex-direction: column;
+    height: 50vh; } }
+
+.titulotienda {
+  text-align: center;
+  font-weight: 500;
+  margin: 30px;
+  font-size: 30px;
+  font-family: "Outfit", sans-serif;
+  background-color: rgba(162, 245, 137, 0.904); }
+
+.containerbikinis {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }
+
+.producto {
+  margin: 5px;
+  font-family: "Outfit", sans-serif; }
+
+.agregaralcarrito {
+  border: 1px solid #8a8484;
+  background-color: white;
+  border-radius: 5px;
+  padding: 4px;
+  text-decoration: none;
+  color: rgba(82, 82, 82, 0.705);
+  font-weight: bolder;
+  font-size: 0.8rem; }
+  .agregaralcarrito:hover {
+    color: #d17d10; }
+
+.imgabajo {
+  padding-bottom: 4rem; }
+
+.maincualesmitalle {
+  font-family: "Outfit", sans-serif; }
+  .maincualesmitalle h4 {
+    text-align: center;
+    font-weight: 500;
+    margin: 30px;
+    font-size: 30px;
+    font-family: "Outfit", sans-serif;
+    background-color: rgba(243, 140, 43, 0.795); }
+
+.sectioncualesmitalle {
+  display: flex;
+  flex-direction: column;
+  margin: 25px; }
+  .sectioncualesmitalle img {
+    width: 800px;
+    height: 350px; }
+  .sectioncualesmitalle p {
+    text-align: center; }
+  .sectioncualesmitalle ul {
+    line-height: 30px; }
+
+@media (max-width: 768px) {
+  .sectioncualesmitalle img {
+    height: 100px;
+    width: 250px !important; } }
+
+.mainlocales {
+  font-family: "Outfit", sans-serif; }
+  .mainlocales h4 {
+    text-align: center;
+    font-weight: 500;
+    margin: 30px;
+    font-size: 30px;
+    font-family: "Outfit", sans-serif;
+    background-color: rgba(187, 85, 187, 0.795); }
+
+.sectionlocales {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 25px; }
+  .sectionlocales img {
+    width: 800px;
+    height: 750; }
+  .sectionlocales h5 {
+    text-align: center; }
+
+@media (max-width: 768px) {
+  .mapa {
+    width: 80%;
+    height: 250px; } }
+
+.mainconsejosdelavado h4 {
+  text-align: center;
+  font-weight: 500;
+  margin: 30px;
+  font-size: 30px;
+  font-family: "Outfit", sans-serif;
+  background-color: rgba(226, 224, 69, 0.795); }
+
+.grid-container {
+  display: grid;
+  align-items: center;
+  justify-content: space-around;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-areas: ". . . ." "section1 section1 section2 section2" "section1 section1 section2 section2" "section1 section1 section2 section2" "section1 section1 section2 section2";
+  display: flex;
+  height: 600px;
+  width: 100vw; }
+
+.imagenlavado {
+  grid-area: section2; }
+  .imagenlavado img {
+    width: 380px;
+    height: 420px; }
+
+.input {
+  display: block;
+  left: 25%;
+  height: 40px;
+  width: 50%;
+  margin-top: 20px; }
+
+.formulario {
+  margin: 25px; }
+
+@media (max-width: 768px) {
+  .grid-container {
+    grid-template-areas: ". . . ." "section1 section1 section1 section1" "section1 section1 section1 section1" "section2 section2 section2 section2" "section2 section2 section2 section2";
+    flex-direction: column;
+    height: 1000px;
+    margin: 0 auto; } }
+
+.linea {
+  border-top: 0.5px solid #b8aaaa;
+  height: 2px;
+  padding: 0;
+  margin: 20px auto 0 auto; }

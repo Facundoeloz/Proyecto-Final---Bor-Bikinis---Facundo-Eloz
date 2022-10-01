@@ -1,0 +1,44 @@
+.maincualesmitalle{
+    font-family:$tipografia-marca ;
+    h4 {
+        text-align: center;
+        font-weight: 500;
+        margin: 30px;
+        font-size: 30px;
+        font-family: $tipografia-marca;
+        background-color: rgba(243, 140, 43, 0.795);
+        
+         }
+}
+
+
+.sectioncualesmitalle{
+    display: flex;
+    flex-direction: column;
+    margin: 25px;
+img{
+    width: 800px;
+    height: 350px;
+}
+p{
+    text-align: center;
+}
+ul{
+    line-height:30px;
+}
+}
+
+
+@media (max-width: 768px){
+.sectioncualesmitalle{
+    img{
+    height: 100px;
+    width: 250px !important;
+}}
+}
+
+
+
+
+
+
